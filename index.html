@@ -15,16 +15,16 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css"/>
   </head>
   <body>
-    <header>
-      <div class="header container">
-        <nav class="nav-link">
-          <a href="index.html" class="logo">
-            <span class="logo-word">Web</span>Studio</a
+    <header class="page-header">
+      <div class="page-header__container">
+       
+          <a href="index.html" class="page-header__logo">
+            <span class="page-header__logo-lable">Web</span>Studio</a
           >
-
+          <nav class="nav-link">
           <ul class="list">
             <li class="item active">
               <a href="index.html" class="link after-link">Студия</a>
@@ -39,7 +39,7 @@
           <li class="item">
             <a href="mailto:info@devstudio.com" class="svg-link">
               <svg class="icon-mail">
-                <use href="./css/imige/sprite.svg#mail" class=""></use></svg
+                <use href=".//imige/sprite.svg#mail" class=""></use></svg
               >info@devstudio.com</a
             >
           </li>
@@ -47,7 +47,7 @@
           <li class="item">
             <a href="tel:+380961111111" class="svg-link">
               <svg class="icon-tel">
-                <use href="./css/imige/sprite.svg#tel"></use></svg
+                <use href="./imige/sprite.svg#tel"></use></svg
               >+38 096 111 11 11</a
             >
           </li>
@@ -68,7 +68,7 @@
             <li class="item">
               <div class="peculiarties-svg">
                 <svg class="peculiarties-icon">
-                  <use href="./css/imige/sprite.svg#antenna"></use>
+                  <use href="./imige/sprite.svg#antenna"></use>
                 </svg>
               </div>
               <h3 class="title">Внимание к деталям</h3>
@@ -81,7 +81,7 @@
             <li class="item">
               <div class="peculiarties-svg">
                 <svg class="peculiarties-icon">
-                  <use href="./css/imige/sprite.svg#clock"></use>
+                  <use href="./imige/sprite.svg#clock"></use>
                 </svg>
               </div>
               <h3 class="title">Пунктуальность</h3>
@@ -94,7 +94,7 @@
             <li class="item">
               <div class="peculiarties-svg">
                 <svg class="peculiarties-icon">
-                  <use href="./css/imige/sprite.svg#diagram"></use>
+                  <use href="./imige/sprite.svg#diagram"></use>
                 </svg>
               </div>
               <h3 class="title">Планирование</h3>
@@ -106,7 +106,7 @@
             <li class="item">
               <div class="peculiarties-svg">
                 <svg class="peculiarties-icon">
-                  <use href="./css/imige/sprite.svg#astronaut"></use>
+                  <use href="./imige/sprite.svg#astronaut"></use>
                 </svg>
               </div>
               <h3 class="title">Современные технологии</h3>
@@ -118,14 +118,14 @@
           </ul>
         </div>
       </section>
-      <section class="work-examples">
+      <section class="our-works">
         <div class="container">
           <h2 class="work-title">Чем мы занимаемся</h2>
-          <ul class="work">
+          <ul class="work-exempls">
             <li class="item desktop-app">
               <img
                 class="work-img"
-                src="./css/imige/img.jpg"
+                src="./imige/img.jpg"
                 width="370"
                 alt="руки на клавиатуре и планшета"
               />
@@ -136,7 +136,7 @@
             <li class="item mobile-app">
               <img
                 class="work-img"
-                src="./css/imige/img(1).jpg"
+                src="./imige/img(1).jpg"
                 alt="женская зука на клавиатуре"
               />
               <div class="position">
@@ -146,7 +146,7 @@
             <li class="item design-img">
               <img
                 class="work-img"
-                src="./css/imige/palitra.jpg"
+                src="./imige/palitra.jpg"
                 alt="в женской руке планшет с палитрой на экране"
               />
               <div class="position">
@@ -164,39 +164,39 @@
             <li class="item">
               <img
                 class="comand-img"
-                src="./css/imige/people(1).jpg"
+                src="./imige/people(1).jpg"
                 width="270"
                 alt="сотрудник Product Designer"
               />
               <div class="comand-info-employee">
-                <h3 class="title">Игорь Демьяненко</h3>
+                <h3 class="name">Игорь Демьяненко</h3>
                 <p class="text">Product Designer</p>
                 <ul class="soc-list">
                   <li class="soc-item">
                     <a href="" class="soc-link">
                       <svg class="soc-icon">
-                        <use href="./css/imige/sprite.svg#instagram"></use>
+                        <use href="./imige/sprite.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="soc-item">
                     <a href="" class="soc-link">
                       <svg class="soc-icon">
-                        <use href="./css/imige/sprite.svg#twit"></use>
+                        <use href="./imige/sprite.svg#twit"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="soc-item">
                     <a href="" class="soc-link">
                       <svg class="soc-icon">
-                        <use href="./css/imige/sprite.svg#facebook1"></use>
+                        <use href=".imige/sprite.svg#facebook1"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="soc-item">
                     <a href="" class="soc-link">
                       <svg class="soc-icon">
-                        <use href="./css/imige/sprite.svg#linkedin1"></use>
+                        <use href="./imige/sprite.svg#linkedin1"></use>
                       </svg>
                     </a>
                   </li>
@@ -207,39 +207,39 @@
             <li class="item">
               <img
                 class="comand-img"
-                src="./css/imige/people(2).jpg"
+                src="./imige/people(2).jpg"
                 width="270"
                 alt="сотрудник Frontend Developer"
               />
               <div class="comand-info-employee">
-                <h3 class="title">Ольга Репина</h3>
+                <h3 class="name">Ольга Репина</h3>
                 <p class="text">Frontend Developer</p>
                 <ul class="soc-list">
                   <li class="soc-item">
                     <a href="" class="soc-link">
                       <svg class="soc-icon">
-                        <use href="./css/imige/sprite.svg#instagram"></use>
+                        <use href="./imige/sprite.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="soc-item">
                     <a href="" class="soc-link">
                       <svg class="soc-icon">
-                        <use href="./css/imige/sprite.svg#twit"></use>
+                        <use href="./imige/sprite.svg#twit"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="soc-item">
                     <a href="" class="soc-link">
                       <svg class="soc-icon">
-                        <use href="./css/imige/sprite.svg#facebook1"></use>
+                        <use href="./imige/sprite.svg#facebook1"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="soc-item">
                     <a href="" class="soc-link">
                       <svg class="soc-icon">
-                        <use href="./css/imige/sprite.svg#linkedin1"></use>
+                        <use href="./imige/sprite.svg#linkedin1"></use>
                       </svg>
                     </a>
                   </li>
@@ -249,40 +249,40 @@
             <li class="item">
               <img
                 class="comand-img"
-                src="./css/imige/people(3).jpg"
+                src="./imige/people(3).jpg"
                 width="270"
                 alt="сотрудник Marketing"
               />
               <div class="comand-info-employee">
-                <h3 class="title">Николай Тарасов</h3>
+                <h3 class="name">Николай Тарасов</h3>
                 <p class="text">Marketing</p>
 
                 <ul class="soc-list">
                   <li class="soc-item">
                     <a href="instagrfm/com" class="soc-link">
                       <svg class="soc-icon">
-                        <use href="./css/imige/sprite.svg#instagram"></use>
+                        <use href="./imige/sprite.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="soc-item">
                     <a href="" class="soc-link">
                       <svg class="soc-icon">
-                        <use href="./css/imige/sprite.svg#twit"></use>
+                        <use href="./imige/sprite.svg#twit"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="soc-item">
                     <a href="" class="soc-link">
                       <svg class="soc-icon">
-                        <use href="./css/imige/sprite.svg#facebook1"></use>
+                        <use href="./imige/sprite.svg#facebook1"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="soc-item">
                     <a href="" class="soc-link">
                       <svg class="soc-icon">
-                        <use href="./css/imige/sprite.svg#linkedin1"></use>
+                        <use href="./imige/sprite.svg#linkedin1"></use>
                       </svg>
                     </a>
                   </li>
@@ -292,40 +292,40 @@
             <li class="item">
               <img
                 class="comand-img"
-                src="./css/imige/people(4).jpg"
+                src="./imige/people(4).jpg"
                 width="270"
                 alt="сотрудник UI Designer"
               />
               <div class="comand-info-employee">
-                <h3 class="title">Михаил Ермаков</h3>
+                <h3 class="name">Михаил Ермаков</h3>
                 <p class="text">UI Designer</p>
 
                 <ul class="soc-list">
                   <li class="soc-item">
                     <a href="" class="soc-link">
                       <svg class="soc-icon">
-                        <use href="./css/imige/sprite.svg#instagram"></use>
+                        <use href="./imige/sprite.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="soc-item">
                     <a href="" class="soc-link">
                       <svg class="soc-icon">
-                        <use href="./css/imige/sprite.svg#twit"></use>
+                        <use href="./imige/sprite.svg#twit"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="soc-item">
                     <a href="" class="soc-link">
                       <svg class="soc-icon">
-                        <use href="./css/imige/sprite.svg#facebook1"></use>
+                        <use href="./imige/sprite.svg#facebook1"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="soc-item">
                     <a href="" class="soc-link">
                       <svg class="soc-icon">
-                        <use href="./css/imige/sprite.svg#linkedin1"></use>
+                        <use href="./imige/sprite.svg#linkedin1"></use>
                       </svg>
                     </a>
                   </li>
@@ -342,39 +342,39 @@
             <li class="clients-item">
               <a href="" class="link">
                 <svg class="icon">
-                  <use href="./css/imige/sprite.svg#client6"></use></svg
+                  <use href="./imige/sprite.svg#client6"></use></svg
               ></a>
             </li>
             <li class="clients-item">
               <a href="" class="link">
                 <svg class="icon">
-                  <use href="./css/imige/sprite.svg#client2"></use></svg
+                  <use href="./imige/sprite.svg#client2"></use></svg
               ></a>
             </li>
             <li class="clients-item">
               <a href="" class="link">
                 <svg class="icon">
-                  <use href="./css/imige/sprite.svg#client3"></use>
+                  <use href="./imige/sprite.svg#client3"></use>
                 </svg>
               </a>
             </li>
             <li class="clients-item">
               <a href="" class="link">
                 <svg class="icon">
-                  <use href="./css/imige/sprite.svg#client4"></use>
+                  <use href="./imige/sprite.svg#client4"></use>
                 </svg>
               </a>
             </li>
             <li class="clients-item">
               <a href="" class="link">
                 <svg class="icon">
-                  <use href="./css/imige/sprite.svg#client5"></use></svg
+                  <use href="./imige/sprite.svg#client5"></use></svg
               ></a>
             </li>
             <li class="clients-item">
               <a href="" class="link">
                 <svg class="icon">
-                  <use href="./css/imige/sprite.svg#client6"></use></svg
+                  <use href="./imige/sprite.svg#client6"></use></svg
               ></a>
             </li>
           </ul>
@@ -382,7 +382,7 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container footer-section">
+      <div class="container footer-sections">
         <div class="footer-address">
           <a href="index.html" class="logo">
             <span class="logo-word">Web</span>Studio</a
@@ -417,14 +417,14 @@
             <li class="item">
               <a href="instagram.com" class="link">
                 <svg class="icon">
-                  <use href="./css/imige/sprite.svg#instagram"></use>
+                  <use href="./imige/sprite.svg#instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="item">
               <a href="" class="link">
                 <svg class="icon">
-                  <use href="./css/imige/sprite.svg#twit"></use>
+                  <use href="./imige/sprite.svg#twit"></use>
                 </svg>
               </a>
             </li>
@@ -432,14 +432,14 @@
             <li class="item">
               <a href="linkedin.com" class="link">
                 <svg class="icon">
-                  <use href="./css/imige/sprite.svg#facebook1"></use>
+                  <use href="./imige/sprite.svg#facebook1"></use>
                 </svg>
               </a>
             </li>
             <li class="item">
               <a href="twitter.com" class="link">
                 <svg class="icon">
-                  <use href="./css/imige/sprite.svg#linkedin1"></use>
+                  <use href="./imige/sprite.svg#linkedin1"></use>
                 </svg>
               </a>
             </li>
@@ -463,7 +463,7 @@
             <button type="submit" class="button-form">
               Подписаться
               <svg class="form-icon">
-                <use href="./css/imige/icon-form.svg#telegram"></use>
+                <use href="./imige/icon-form.svg#telegram"></use>
               </svg>
             </button></div>
           </form>
@@ -474,7 +474,7 @@
       <div class="modal">
         <button  type="button" data-modal-close class="modal-button">
           <svg class="modal-close" >
-            <use href="./css/imige/icon-form.svg#close-black"></use>
+            <use href="./imige/icon-form.svg#close-black"></use>
             "
           </svg>
         </button>
@@ -484,7 +484,7 @@
             <span class="modal-input-name">Имя</span>
            <span class="input-group"> <input class="modal-input" type="name" name="name" placeholder=" "/>
             <svg class="modal-icon"> 
-              <use href="./css/imige/icon-form.svg#person-black"></use>
+              <use href="./imige/icon-form.svg#person-black"></use>
             </svg>
           </span>
           </label>
@@ -492,7 +492,7 @@
             <span class="modal-input-name"> Телефон</span>
             <span class="input-group"><input class="modal-input" type="tel" name="tel" placeholder=" "/>             
               <svg class="modal-icon"> 
-              <use href="./css/imige/icon-form.svg#phone-black"></use>
+              <use href="./imige/icon-form.svg#phone-black"></use>
             </svg>          
           </span>
           </label>
@@ -500,7 +500,7 @@
             <span class="modal-input-name">Почта</span>
             <span class="input-group"><input class="modal-input" type="email"  name="email" placeholder=" "/>
               <svg class="modal-icon">
-              <use href="./css/imige/icon-form.svg#email-black"></use>
+              <use href="./imige/icon-form.svg#email-black"></use>
             </svg>
           </span>
           </label>
