@@ -5,7 +5,7 @@
     margin-left: auto;
   }
   
-  .svg-link:hover .icon-mail {
+  .contac .svg-link:hover .icon-mail {
     fill: var(--accent-color);
   }
   
@@ -42,7 +42,7 @@
     fill: var(--accent-color);
   }
   
-  .icon-mail {
+  .contact .icon-mail {
     display: block;
     fill: #afb1b8;
     height: 12px;
@@ -54,7 +54,7 @@
     transition-timing-function: var(--cubick);
   }
   
-  .icon-tel {
+  .contact .icon-tel {
     display: block;
     fill: #afb1b8;
     height: 16px;

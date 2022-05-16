@@ -2,7 +2,7 @@
     padding-bottom: 94px;
   }
   
-  .work-title {
+  .our-works .work-title {
     margin-top: 0px;
     margin-bottom: 50px;
   
@@ -13,7 +13,7 @@
     text-align: center;
   }
   
-  .work-exempls {
+  .our-works .work-exempls {
     display: block;
     display: flex;
     margin-top: 0px;
@@ -27,10 +27,10 @@
    
   
   
-  .desktop-app{
+  .our-works .desktop-app{
     position: relative;
   }
-  .mobile-app{
+  .our-works .mobile-app{
     position: relative;
   }
   
@@ -39,7 +39,7 @@
     width: 370px;
   }
   
-  .design-img{
+  .our-works .design-img{
   
     position: relative;
   }
@@ -48,7 +48,7 @@
     margin-right: 0px;
   }
   
-  .position{
+  .our-works .position{
    
    position: absolute;
    left: 0;

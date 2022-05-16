@@ -30,7 +30,7 @@
      overflow: hidden;
   }
   
-  .overlay{
+  .portpholio .overlay{
     display: flex;
     position: absolute;
       top: 0;
@@ -48,7 +48,7 @@
       transition-timing-function: var(--cubick);
   
   }
-  .overlay-text{
+  .portpholio .overlay-text{
    
     padding-top: 63px;
     padding-right: 24px;
@@ -72,7 +72,7 @@
     
   }
   
-  .img-border { 
+  .portpholio .img-border { 
     padding: 20px 24px;
   
   }
@@ -105,14 +105,14 @@
    
   }
   
-  .title-item {
+  .portpholio .title-item {
     color: #212121;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
   }
-  .text {
+  .portpholio .text {
     color: #757575;
     font-size: 16px;
     line-height: 1.88;

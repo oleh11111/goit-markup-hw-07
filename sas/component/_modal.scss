@@ -87,7 +87,7 @@ letter-spacing: 0.01em;
 color: #757575;
 }
 
-.input-group{
+.modal .input-group{
   position: relative;
 }
 
@@ -163,7 +163,7 @@ transition-timing-function: var(--cubick);
   
 }
 
-.input-check{
+.modal .input-check{
   position: absolute;
   top: 6px;
   
@@ -173,11 +173,11 @@ transition-timing-function: var(--cubick);
   clip: rect(0 0 0 0);
 }
 
-.input-check:checked+.check-box{
+.modal .input-check:checked+.check-box{
   background-image: url(../css/imige/icon-on.svg);
 }
 
-.check-box{ 
+.modal .check-box{ 
   position: absolute;
   top: 2px;
   left: -16px;
@@ -192,12 +192,12 @@ transition-timing-function: var(--cubick);
 }
 
 
-.contract{
+.modal .contract{
   display: flex;
    margin-bottom:30px;
 }
 
-.contract-text{
+.modal .contract-text{
   margin-left: 10px;
   font-size: 14px;
 line-height: 1.71;
@@ -210,7 +210,7 @@ color: #757575;
  }
 
 
-  .button-agreement{
+.modal .button-agreement{
     display: flex;
   align-items: center;
   text-align: center;
@@ -235,8 +235,8 @@ color: #757575;
   transition-duration: 250ms;
   transition-timing-function: var(--cubick); 
   }
-  .button-agreement:hover,
-  .button-agreement:focus{
+  .modal .button-agreement:hover,
+  .modal .button-agreement:focus{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     background-color: #188CE8;
   }

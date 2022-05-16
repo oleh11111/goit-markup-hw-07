@@ -1,19 +1,24 @@
-.nav-link {
+.site-nav { display: block;
+  display: flex;
+  align-items: center;
+  display: block;
+  display: flex;
+  
+}
+
+.site-nav .list {
   display: block;
   display: flex;
   align-items: center;
-}
-
-.list {
   display: block;
   display: flex;
 }
 
-.list .item + .item {
+.site-nav .item + .item {
   margin-left: 50px;
 }
 
-.list .link {
+.site-nav .link {
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--secondary-text-color);
@@ -28,16 +33,16 @@
   transition-timing-function: var(--cubick);
 }
 
-.list .link:hover,
-.list .link:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: var(--accent-color);
 }
 
-.after-link {
+.site-nav .after-link {
   position: relative;
 }
 
-.list .after-link::after {
+.site-nav .after-link::after {
   position: absolute;
   bottom: 0;
   left: 0;

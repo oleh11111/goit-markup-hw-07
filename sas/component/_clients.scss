@@ -35,7 +35,7 @@
     
   }
   
-  .clients-list .link{
+  .clients .link{
     display: flex;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
@@ -52,12 +52,12 @@
     transition-timing-function: var(--cubick);
   }
   
-  .clients-list .link:hover .icon, .clients-list .link:focus .icon{
+  .clients .link:hover .icon, .clients-list .link:focus .icon{
    
     fill: var(--accent-color); 
   }
   
-  .clients-list .link:hover, .clients-list .link:focus{
+  .clients .link:hover, .clients-list .link:focus{
     border-color: var(--accent-color);
   }
   
