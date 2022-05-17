@@ -1,8 +1,7 @@
 .our-works{
     padding-bottom: 94px;
-  }
-  
-  .our-works .work-title {
+
+  &__title {
     margin-top: 0px;
     margin-bottom: 50px;
   
@@ -12,52 +11,49 @@
     line-height: 1.16;
     text-align: center;
   }
-  
-  .our-works .work-exempls {
+
+  &__exempls {
     display: block;
     display: flex;
     margin-top: 0px;
     padding: 0px 0px;
   }
-  
-  .our-works .item {
+
+  &__item {
     
     margin-right: 30px;
   }
-   
-  
-  
-  .our-works .desktop-app{
-    position: relative;
-  }
-  .our-works .mobile-app{
-    position: relative;
-  }
-  
-  .our-works-img {
+ 
+  &__img {
     display: flex;
     width: 370px;
   }
-  
-  .our-works .design-img{
+ 
+  &__desktop-app{
+    position: relative;
+  }
+ 
+  &__mobile-app{
+    position: relative;
+  }
+
+  &__design-img{
   
     position: relative;
   }
-  
-  .our-works .item:nth-child(3n) {
+
+  &__item:nth-child(3n) {
     margin-right: 0px;
   }
-  
-  .our-works .position{
+  &__position{
    
-   position: absolute;
-   left: 0;
-   bottom: 10px;
-
-   width: 100%;
-  }
-  
-  .our-works .text{
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+ 
+    width: 100%;
+   }
+   &__text{
     display: block;
     padding: 27px;
   
@@ -69,3 +65,11 @@
     text-transform: uppercase;color: #FFFFFF;
     background-color: rgba(47, 48, 58, 0.8);
   }
+}
+
+
+
+  
+  
+  
+  
