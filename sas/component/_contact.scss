@@ -4,10 +4,6 @@
     align-items: center;
     margin-left: auto;
     
-    &__svg-link:hover &__icon-mail {
-      fill: var(--accent-color);
-    }
-    
     &__item {
       margin-left: 50px;
       align-items: center;
@@ -62,6 +58,7 @@
   &__svg-link:focus &__icon-mail{
     fill: var(--accent-color);
   }
+
   }
   
  

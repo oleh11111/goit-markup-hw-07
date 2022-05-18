@@ -1,44 +1,44 @@
-.comand .soc-list {
-    display: flex;
-    justify-content: center;
-   
-  }
-  
-  
-  
-  .comand .soc-list .soc-item + .soc-item {
+.soc-list {
+  display: flex;
+  justify-content: center;
+
+  &__item + &___item {
     margin-left: 10px;
   }
+
+
+
   
-  .comand .soc-link{
-    display: block;
-    padding: 12px ;
+  
+}
+.soc-list__link{
+  display: block;
+    padding: 12px;
     border-radius: 50%;
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: var(--cubick);
-   
+    &:hover,
+    &:focus {
+      background-color: var(--accent-color);
+    }
+     
+    }
+  .soc-list__icon {
+      display: block;
+      width: 20px;
+      height: 20px;
   
-  }
+      fill: #afb1b8;
   
-  .comand .soc-list .soc-icon { 
-    display: block;
-    width: 20px;
-    height: 20px;
-  
-   fill: #afb1b8;
-   
-   transition-property: fill;
-   transition-duration: 250ms;
-   transition-timing-function: var(--cubick);
-  }
-  
-  .comand .soc-link:hover .soc-icon,
-  .comand .soc-link:focus .soc-icon{
-    fill: var(--ccolor-withe);
-  }
-  
-  .comand .soc-link:hover,.comand .soc-link:focus{
-    background-color: var(--accent-color)
+      transition-property: fill;
+      transition-duration: 250ms;
+      transition-timing-function: var(--cubick);
     
-  }
+      .soc-list__link:hover &{
+        fill: #ffffff;
+      }
+      .soc-list__link:focus &{
+        fill: #ffffff;
+      }
+    }

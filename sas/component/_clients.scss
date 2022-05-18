@@ -1,7 +1,7 @@
 .clients{padding-top: 94px;
-  padding-bottom: 94px;}
-  
-  .clients-title {
+  padding-bottom: 94px;
+
+  &__title {
     
     margin-bottom: 50px;
   
@@ -12,61 +12,59 @@
     text-align: center;
     letter-spacing: 0.03em;
   }
-  
-  .clients-list {
+
+  &__list {
     display: flex;
    
   }
-  
-  .clients-item{
+
+  &__item{
     display: flex;
     width: 100%;
     height: 100%;
-   
+
   
     justify-content: center;
     align-items: center;
   }
-  
-  
-  
-  .clients-list .clients-item + .clients-item {
+
+  &__item + &__item {
     margin-left: 30px;
-    
   }
-  
-  .clients .link{
-    display: flex;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    width: 170px;
-    height: 92px;
-    justify-content: center;
-    align-items: center;
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: var(--cubick);
-    transition: border-color 250ms var(--cubick);
-    transition-property: border-color;
-    transition-duration: 250ms;
-    transition-timing-function: var(--cubick);
-  }
-  
-  .clients .link:hover .icon, .clients-list .link:focus .icon{
    
-    fill: var(--accent-color); 
-  }
-  
-  .clients .link:hover, .clients-list .link:focus{
-    border-color: var(--accent-color);
-  }
-  
-   .clients-item .icon {
-    display: block;
-    width: 106px;
-    height: 60px;
-    fill: #afb1b8;
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: var(--cubick);
+    }
+    .clients__link{
+      display: flex;
+      border: 1px solid #AFB1B8;
+      border-radius: 4px;
+      width: 170px;
+      height: 92px;
+      justify-content: center;
+      align-items: center;
+      transition-property: fill;
+      transition-duration: 250ms;
+      transition-timing-function: var(--cubick);
+      transition: border-color 250ms var(--cubick);
+      transition-property: border-color;
+      transition-duration: 250ms;
+      transition-timing-function: var(--cubick);
+      &:hover,
+       &:focus{
+        border-color: var(--accent-color);
+       
+      } 
+      }
+
+      .clients__icon {
+        display: block;
+        width: 106px;
+        height: 60px;
+        fill: #afb1b8;
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: var(--cubick);
+        
+        .clients__link:hover &{
+          fill: var(--accent-color);
+        }
   }
